@@ -13,6 +13,8 @@
 		F288F8EC29386E5E00333166 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F288F8EB29386E5E00333166 /* Preview Assets.xcassets */; };
 		F288F8EE29386E5E00333166 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288F8ED29386E5E00333166 /* Persistence.swift */; };
 		F288F8F129386E5E00333166 /* PhoneBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F288F8EF29386E5E00333166 /* PhoneBook.xcdatamodeld */; };
+		F288F8F929386FEC00333166 /* Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F288F8F729386FEC00333166 /* Contact.xcdatamodeld */; };
+		F288F8FB293876DC00333166 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F288F8FA293876DC00333166 /* BookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		F288F8EB29386E5E00333166 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F288F8ED29386E5E00333166 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		F288F8F029386E5E00333166 /* PhoneBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneBook.xcdatamodel; sourceTree = "<group>"; };
+		F288F8F829386FEC00333166 /* Contact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact.xcdatamodel; sourceTree = "<group>"; };
+		F288F8FA293876DC00333166 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F288F8E629386E5C00333166 /* ContentView.swift */,
 				F288F8E829386E5E00333166 /* Assets.xcassets */,
 				F288F8ED29386E5E00333166 /* Persistence.swift */,
+				F288F8FA293876DC00333166 /* BookView.swift */,
+				F288F8F729386FEC00333166 /* Contact.xcdatamodeld */,
 				F288F8EF29386E5E00333166 /* PhoneBook.xcdatamodeld */,
 				F288F8EA29386E5E00333166 /* Preview Content */,
 			);
@@ -144,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F288F8EE29386E5E00333166 /* Persistence.swift in Sources */,
+				F288F8F929386FEC00333166 /* Contact.xcdatamodeld in Sources */,
 				F288F8E729386E5C00333166 /* ContentView.swift in Sources */,
+				F288F8FB293876DC00333166 /* BookView.swift in Sources */,
 				F288F8E529386E5C00333166 /* PhoneBookApp.swift in Sources */,
 				F288F8F129386E5E00333166 /* PhoneBook.xcdatamodeld in Sources */,
 			);
@@ -354,6 +362,16 @@
 			);
 			currentVersion = F288F8F029386E5E00333166 /* PhoneBook.xcdatamodel */;
 			path = PhoneBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F288F8F729386FEC00333166 /* Contact.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F288F8F829386FEC00333166 /* Contact.xcdatamodel */,
+			);
+			currentVersion = F288F8F829386FEC00333166 /* Contact.xcdatamodel */;
+			path = Contact.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
