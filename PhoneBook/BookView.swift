@@ -88,10 +88,6 @@ struct BookView: View {
                         
                     }.padding(8)
                 })
-
-
-
-                
                 .toolbar{
                     
                     ToolbarItem(placement: .navigationBarTrailing) {
@@ -101,10 +97,10 @@ struct BookView: View {
                             presented = true
 //                            let person = Person(context: viewContext)
 //
-//                            person.first_name = "Ian"
-//                            person.second_name = "Nalyanya"
+//                            person.first_name = ""
+//                            person.second_name = ""
 //                            person.email = "johndoe@example.com"
-//                            person.phone = "+254712345678"
+//                            person.phone = ""
 //                            person.favourite = true
 //
 //
